@@ -1,0 +1,16 @@
+PODS:
+  - CustomTFBorder (0.1.0)
+
+DEPENDENCIES:
+  - CustomTFBorder (from `../`)
+
+EXTERNAL SOURCES:
+  CustomTFBorder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomTFBorder: 71ab0b46bfd452e9077f5a39dd114d491b1dca5b
+
+PODFILE CHECKSUM: bd9b01f6135c0810ec17e5de63aa5f02dc3fb2d9
+
+COCOAPODS: 1.10.2

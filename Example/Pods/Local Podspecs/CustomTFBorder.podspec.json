@@ -1,0 +1,22 @@
+{
+  "name": "CustomTFBorder",
+  "version": "0.1.0",
+  "summary": "A short description of CustomTFBorder.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sammy2997/CustomTFBorder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sammy2997": "samueladama@ymail.com"
+  },
+  "source": {
+    "git": "https://github.com/sammy2997/CustomTFBorder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CustomTFBorder/Classes/**/*"
+}
