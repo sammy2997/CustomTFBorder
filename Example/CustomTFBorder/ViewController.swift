@@ -7,12 +7,29 @@
 //
 
 import UIKit
+import CustomTFBorder
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var textfield1: UITextField!
+    @IBOutlet weak var textfield2: UITextField!
+    @IBOutlet weak var lblView: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        setUp()
+    }
+    
+    func setUp(){
+        let test = CBorder()
+        test.printLog(lbl: lblView)
+    
+        
+        test.borderBottom(txtField: textfield1)
+        test.borderBottom(txtField: textfield2)
+        
     }
 
     override func didReceiveMemoryWarning() {
